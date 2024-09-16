@@ -1,0 +1,10 @@
+{
+    "uuid": "bitmonitor@ahmetoff.gnome.org",
+    "name": "Bitmonitor",
+    "description": "Real-time crypto rates at glance",
+    "gettext-domain": "bitmonitor",
+    "shell-version": [
+        "45"
+    ],
+    "version": 1.0
+}
