@@ -61,7 +61,7 @@ export default class BitmonitorExtension extends Extension {
       console.log(_('Bitcoin price: %d $').format(bitcoinPrice));
       label.text = ": %d $".format(bitcoinPrice);
     }
-    setInterval(updateBitcoinPrice, 10000);
+    setInterval(updateBitcoinPrice, 60000);
   }
 
   disable() {
